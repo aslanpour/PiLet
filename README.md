@@ -1,7 +1,7 @@
 # PiLet 
 
 ##Prerequisite:\
-flask and waitress
+flask and waitress \
 The tested platform is a Raspberry Pi 4 as master and Pi 3 as worker. Openfaas is installed on K3s as well.
 
 ##Function deployment: \
