@@ -12,7 +12,7 @@ app.config["DEBUG"] = True
 file_name = "./soccer.jpeg"
 host_IP="10.76.7.92"
 gateway_IP="10.76.7.91"
-iterations=1
+iterations=10
 intervals=1
 #end
 
@@ -108,7 +108,7 @@ def actuator():
         #[3] execution duration (by openfaas)
         request_log[index][3]= float(request.headers.get('X-Duration-Seconds'))
         #[4] execution duration (actual time)
-        request_log[index][4]= float(request.headers.get('Exec-Time2'))
+        request_log[index][4]= float(request.headers.get('Exec-Time'))
         #[5] round trip
         request_log[index][5]=now - request_log[index][0]
         
