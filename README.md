@@ -7,7 +7,7 @@
 `<python3 load_generator.py>` 
 
 ##What does it do? \
-It is a Flask server that (1) executes `<generator>` method to create and send async http requests (+ an image) to the function `<yolo3>' \
+It is a Flask server that (1) executes `<generator>` method to create and send async http requests (+ an image) to the function `<yolo3>` \
 When the task is done by `<yolo3>` function, (2) it returns back the response to the route `<actuator>` in the Flask server. \
 (3) The `<actuator>` measures the admission time (to openfaas gateway), execution time and round trip for each request. \
 (4) An average of results is printed. 
