@@ -2,7 +2,7 @@
 
 ##Prerequisite:\
 flask and waitress \
-The tested platform is a Raspberry Pi 4 as master and Pi 3 as worker. Openfaas is installed on K3s as well.
+The tested platform is a Raspberry Pi 4 as master and Pi 3 as worker. Openfaas (using arkade and default settings, just 2 gateways) is installed on K3s as well.
 
 ##Function deployment: \
 `<faas-cli publish -f yolo3.yml --platforms linux/amd64,linux/arm64,linux/arm/v7>` \
